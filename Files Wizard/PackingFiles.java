@@ -108,7 +108,7 @@ public class PackingFiles
 
                 while((ret = fi.read(buffer) ) != -1)
                 {
-                    // ModifyTheFile(buffer,ret);
+                    ModifyTheFile(buffer,ret);
                     fo.write(buffer,0,ret);
                 }
                 
