@@ -66,7 +66,7 @@ public class UnPackingFiles {
                 byte dataBytesarr[] = new byte[size];
                 fi.read(dataBytesarr, 0, size);
 
-                // ModifyTheFile(dataBytesarr,size);
+                ModifyTheFile(dataBytesarr,size);
 
                 //writing into the newly created file
                 FileOutputStream fo = new FileOutputStream(new File(pathToCreate));
